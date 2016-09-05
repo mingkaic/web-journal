@@ -15,16 +15,16 @@ export class TopicListComponent implements OnInit {
         title: "bilinear mapping",
         subject: "linear algebra",
         author: "Franklin Richards",
-        startdate: new Date(2016, 9, 4),
-        lastupdate: new Date(2016, 9, 4)
+        startdate: new Date(2016, 8, 4),
+        lastupdate: new Date(2016, 8, 4)
     },
     {
         id: 2,
         title: "dual vector space",
         subject: "linear algebra",
         author: "Richard M. Nexon",
-        startdate: new Date(2016, 8, 31),
-        lastupdate: new Date(2016, 9, 4)
+        startdate: new Date(2016, 7, 31),
+        lastupdate: new Date(2016, 8, 4)
     },
     {
         id: 4,
@@ -32,7 +32,7 @@ export class TopicListComponent implements OnInit {
         subject: "linear algebra",
         author: "Winston",
         startdate: new Date(2016, 5, 1),
-        lastupdate: new Date(2016, 9, 4)
+        lastupdate: new Date(2016, 8, 4)
     }];
 
     constructor() {

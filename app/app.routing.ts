@@ -6,6 +6,7 @@ import { TopicListComponent } from './topic/topic-list.component';
 import { PageNotFoundComponent } from './page-not-found.component';
 
 const appRoutes: Routes = [
+    { path: '', redirectTo: '/welcome', pathMatch: 'full' }
     { path: 'welcome', component: WelcomeComponent },
     { path: 'topics', component: TopicListComponent },
     { path: '**', component: PageNotFoundComponent }

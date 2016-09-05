@@ -32,10 +32,10 @@
                                 {{ topic.title }}
                             </a>
                         </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>{{ topic.subject }}</td>
+                        <td>{{ topic.author }}</td>
+                        <td>{{ topic.startdate | date }}</td>
+                        <td>{{ topic.lastupdate | date }}</td>
                     </tr>
                 </tbody>
             </table>
